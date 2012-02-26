@@ -1,0 +1,107 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ol, ul {
+  list-style: none;
+}
+img {
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+a:active {
+  position: relative;
+  top: 1px;
+}
+input:focus {
+  outline: none;
+}
+h1,h2,h3,h5 {
+  font-family: inherit;
+  font-weight: inherit;
+}
+::-moz-selection {
+  background-color: #000;
+  color: #FFF;
+}
+::selection {
+  background-color: #000;
+  color: #FFF;
+}
+.clear {
+  clear: both;
+}
+strong {
+  font-weight: 700;
+}
+
+/* Basic  */
+
+body {
+  text-rendering: optimizeLegibility;
+  background: url(mysite/images/canvas.png) repeat #f6f6f6;
+  color: #000;
+  font-size: 15px;
+}
+.container {
+  width: 750px;
+  margin: 0 auto;
+  padding: 20px 15px 15px;
+}
+.serif {
+  line-height: 20px;
+}
+
+/* Home */
+
+.left {
+  width: 600px;
+  float: left;
+}
+.left h1, .left h2 {
+  font-size: 50px;
+  line-height: 60px;
+}
+.wf-inactive .left h1, .wf-inactive .left h2 {
+  font-size: 40px;
+  line-height: 60px;
+}
+.right {
+  width: 150px;
+  float: right;
+  text-align: right;
+}
+.right h3 {
+  font-size: 35px;
+  line-height: 45px;
+}
+.left,.right {
+  margin-bottom:12px;
+}
+a {
+  -webkit-transition: all 0.2s linear;
+}
+a.twitter {
+  color: #2dcbff;
+}
+a.linkedin {
+  color: #006699;
+}
+a.github{
+  color: #ff0084;
+}
+
+a.twitter:hover {
+  color: #000;
+}
+a.github:hover {
+  color: #000;
+}
+a.linkedin:hover {
+  color: #000;
+}
+
