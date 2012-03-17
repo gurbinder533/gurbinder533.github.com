@@ -7,6 +7,26 @@
 <link rel="stylesheet" href="mysite/css/style.css" />
 <link rel="stylesheet" href="mysite/css/font.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script language="JavaScript">
+    <!--
+      function win(fileName) {
+      myWin = window.open("","myWindow","resizable=yes,scrollbars=no,status=no,width=0,height=0,bgcolor=ffffff");
+      myWin.document.write("<body bgcolor=#ffffff>");
+      myWin.document.write( "<OBJECT CLASSID=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\"" );
+      myWin.document.write( "CODEBASE=\"http://active.macromedia.com/flash4/cabs/swflash.cab#version=4,0,0,0\"" );
+      myWin.document.write( "ID=navmovie WIDTH=100% HEIGHT=100%> " );
+      myWin.document.write( "<PARAM NAME=\"movie\" VALUE=\""+ fileName + "\">" ); 
+      myWin.document.write( "<PARAM NAME=\"play\" VALUE=\"true\">" );
+      myWin.document.write( "<PARAM NAME=\"quality\" VALUE=\"high\">" ); 
+      myWin.document.write( "<PARAM NAME=\"loop\" VALUE=\"false\">" ); 
+      myWin.document.write( "<EMBED NAME=navmovie SRC=" + fileName +" WIDTH=100% HEIGHT=100% PLAY=true LOOP=false" );
+      myWin.document.writeln( "SWLIVECONNECT=true QUALITY=high> </OBJECT> </body>" );
+      myWin.document.close(); 
+     }
+  //-->
+</script>
+
 <body id="home">
 <div id="image">
             <img src="mysite/images/me.JPG" width="300" alt="Gurbinder Gill"/>
@@ -26,7 +46,7 @@
 		<h3><a href="https://github.com/gurbinder533" class="github">Github</a></h3>
 		<!--<h3><a href="http://in.linkedin.com/in/syst3mw0rm" class="linkedin">LinkedIn</a></h3>-->
         <h3><a href="https://www.facebook.com/gurbinder.gill" class="facebook">facebook</a></h3>
-        <h3><a href="javascript:win('demoTest.swf')">Testing</a><h3>
+        <!--  <h3><a href="javascript:win('demoTest.swf')">Testing</a><h3>-->
 	</div>
 </div>
 </body>
