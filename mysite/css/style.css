@@ -104,4 +104,9 @@ a.github:hover {
 a.linkedin:hover {
   color: #000;
 }
-
+#image
+{
+  float:left;
+  width:300px;
+  margin-top:40px;
+}
