@@ -1,54 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>GURBINDER GILL</title>
-<link rel="icon" type="image/png" href="favicon.png">
-<link rel="stylesheet" href="mysite/css/style.css" />
-<link rel="stylesheet" href="mysite/css/font.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<meta charset="utf-8" />
+<title>CSS3 Tabs</title>
 
-<script language="JavaScript">
-    <!--
-      function win(fileName) {
-      myWin = window.open("","myWindow","resizable=yes,scrollbars=no,status=no,width=0,height=0,bgcolor=ffffff");
-      myWin.document.write("<body bgcolor=#ffffff>");
-      myWin.document.write( "<OBJECT CLASSID=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\"" );
-      myWin.document.write( "CODEBASE=\"http://active.macromedia.com/flash4/cabs/swflash.cab#version=4,0,0,0\"" );
-      myWin.document.write( "ID=navmovie WIDTH=100% HEIGHT=100%> " );
-      myWin.document.write( "<PARAM NAME=\"movie\" VALUE=\""+ fileName + "\">" ); 
-      myWin.document.write( "<PARAM NAME=\"play\" VALUE=\"true\">" );
-      myWin.document.write( "<PARAM NAME=\"quality\" VALUE=\"high\">" ); 
-      myWin.document.write( "<PARAM NAME=\"loop\" VALUE=\"false\">" ); 
-      myWin.document.write( "<EMBED NAME=navmovie SRC=" + fileName +" WIDTH=100% HEIGHT=100% PLAY=true LOOP=false" );
-      myWin.document.writeln( "SWLIVECONNECT=true QUALITY=high> </OBJECT> </body>" );
-      myWin.document.close(); 
-     }
-  //-->
-</script>
+<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
+<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/tabbed.layout.js"></script>
 
-<body id="home">
-<div id="image">
-            <img src="mysite/images/me.JPG" width="300" alt="Gurbinder Gill"/>
-      </div>
- <div class="container">
+</head>
+<body>
+
+<header>
+	<h1>Some cool title</h1>
+</header>
+
+<nav> 
+    <ul>
+        <li><a href="#tab1">Tab 1</a></li>
+        <li><a href="#tab2">Tab 2</a></li>
+        <li><a href="#tab3">Tab 3</a></li>
+        <li><a href="#tab4">Tab 4</a></li>	
+    </ul>
+</nav>
       
-	<div class="left netto">
-		<h1>Hello. This is <strong>Gurbinder Gill</strong>.</h1>
-		<h2>Computer Engineer.</h2>
-		<h2>Researcher.</h2>
-		<h2>Web developer.</h2>
-		<h2>Entrepreneur.</h2>
-		<h2>Geek.</h2>
-	</div>
-	<div class="right netto">
-		<h3><a href="https://twitter.com/gurbindergill" class="twitter">Twitter</a></h3>
-		<h3><a href="https://github.com/gurbinder533" class="github">Github</a></h3>
-		<!--<h3><a href="http://in.linkedin.com/in/syst3mw0rm" class="linkedin">LinkedIn</a></h3>-->
-        <h3><a href="https://www.facebook.com/gurbinder.gill" class="facebook">facebook</a></h3>
-        <!--  <h3><a href="javascript:win('demoTest.swf')">Testing</a><h3>-->
-	</div>
-</div>
+<section class="tab" id="tab1">
+	<p>Section number 1</p>
+    <p><a href="http://cssglobe.com/post/9579/styling-full-width-tabs-with-css3" title="read more">back to the article</a></p>
+
+	<p><strong>This tutorial</strong> is brought to you by <a href="http://cssglobe.com" title="web standards magazine and css news">Css Globe</a>, <a href="http://easyframework.com">Easy front-end framework</a> and supported by <a href="http://templatica.com">Css Templates</a> by Templatica</p>
+
+</section>
+
+<section class="tab" id="tab2">
+	<p>Section number 2</p>
+</section>
+
+<section class="tab" id="tab3">
+	<p>Section number 3</p>
+</section>
+
+<section class="tab" id="tab4">
+	<p>Section number 4</p>
+</section>
+   
 </body>
 </html>
 
