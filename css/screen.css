@@ -77,8 +77,12 @@ nav li{
 	background:#ccc;
 	background:-webkit-gradient(linear, left top, left bottom, from(#ccc), to(#aaa));
 	background:-moz-linear-gradient(top,  #ccc,  #aaa);
+   	}
+
+#tab1{
     margin-left:19%;
-	}
+     }
+
 nav li a, nav li a:visited, nav li a:hover{
 	list-style:none;
 	display:block;
