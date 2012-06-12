@@ -219,3 +219,31 @@ a{
     text-decoration:none;
 }
 
+#left{
+    float:left;
+    display:inline;
+    width:250px;
+    margin-left:25px;
+    padding-bottom:60px;
+}
+
+#center{
+    float:left;
+    display:inline;
+    width:250px;
+    margin-left:25px;
+    padding-bottom:60px;
+}
+
+#right{
+    float:left;
+    display:inline;
+    width:250px;
+    padding-bottom:60px;
+}
+
+#headingText{
+    font-size:20px;
+    color:#5993E5;
+    font-weight:bold;
+}
