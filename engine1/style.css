@@ -222,24 +222,27 @@ a{
 #left{
     float:left;
     display:inline;
-    width:250px;
-    margin-left:25px;
+    width:321px;
+    margin-left:0;
     padding-bottom:60px;
+    text-align:center;
 }
 
 #center{
     float:left;
     display:inline;
-    width:250px;
-    margin-left:25px;
+    width:321px;
+    margin-left:0;
     padding-bottom:60px;
+    text-align:center;
 }
 
 #right{
     float:left;
     display:inline;
-    width:250px;
+    width:321px;
     padding-bottom:60px;
+    text-align:center;
 }
 
 #headingText{
@@ -247,3 +250,8 @@ a{
     color:#5993E5;
     font-weight:bold;
 }
+
+#textbody{
+    margin-left:17%;
+}
+
