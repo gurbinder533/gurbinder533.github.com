@@ -1,5 +1,5 @@
 body{
-    background:#DBDCDE url(..mysite/images/bg_body.png) top left repeat;
+    background:#DBDCDE url(../mysite/images/bg_body.png) top left repeat;
     font:normal normal normal 14px/21px 'Droid Sans', Arial, Helvetica, sans-serif;
     text-align:left;
     color:#494F55;
@@ -9,11 +9,6 @@ body{
     margin:0;
     display:block;
 }
-
-
-
-
-
 
 #wowslider-container1 { 
 	zoom: 1; 
