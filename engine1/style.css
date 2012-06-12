@@ -9,7 +9,7 @@
 	z-index:100;
 	border:none;
 	text-align:left; /* reset align=center */
-    margin-top:100px;
+    margin-top:1px;
 }
 * html #wowslider-container1{ width:960px }
 #wowslider-container1 ul{
