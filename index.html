@@ -11,9 +11,8 @@
 	<script type="text/javascript" src="engine1/jquery.js"></script>
     <script>
         $(document).ready(function() {
-            var removethis = $('a:contains("WOWSlider.com")').hide();
-            alert(removethis);
-
+            // var removethis = $('a:contains("WOWSlider.com")').hide();
+            var removethis= $('a[href="WOWSlider.com"]').parent().hide();
     </script>
 	<!-- End of HEAD section -->
 </head>
